@@ -5,16 +5,15 @@
   </div>
 </template>
 
-<script>
+<script setup>
 import Message from './components/Message.vue'
 
-export default {
-  name: 'Vue Component Example',
-  props: ['block'],
-  components: {
-    Message,
+defineProps({
+  block: {
+    type: Object,
+    required: true,
   },
-}
+})
 </script>
 
 <style></style>
