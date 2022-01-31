@@ -9,11 +9,10 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {},
   "devDependencies": {
+    "@vueuse/core": "^7.5.5",
     "@vue/compiler-sfc": "^3.2.19",
-    "alpinejs": "^3.4.2",
-    "laravel-mix": "^6.0.31",
+    "laravel-mix": "^6.0.41",
     "resolve-url-loader": "^4.0",
     "vue": "^3.2.19",
     "vue-loader": "^16.8.1"
