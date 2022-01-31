@@ -15,9 +15,7 @@ foo-block
 
 Template type?
 1) PHP/Vanilla JS
-2) Alpine
-3) Vue (Inline Template)
-4) Vue (Component)
+2) Vue
 #? 2
 ```
 
