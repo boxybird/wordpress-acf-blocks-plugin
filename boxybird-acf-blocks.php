@@ -3,7 +3,7 @@
 /**
  * Plugin Name: BoxyBird ACF Blocks
  * Description: A starter plugin to create ACF Pro powered blocks using Vue, Alpine.js, or Vanilla Javascript.
- * Version:     2.7.0
+ * Version:     3.0.0
  * Author:      Andrew Rhyand
  * Author URI:  https://andrewrhyand.com
  * License:     MIT
