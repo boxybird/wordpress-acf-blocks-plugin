@@ -90,11 +90,11 @@ fi
 # create mount file
 # ------------------------------------------------------------------------------
 if [[ $BLOCK_TYPE = "Vue" ]]; then
-echo "import block from '../block'
-import { createApp } from 'vue'
+echo "import { createApp } from 'vue'
+import Block from '../Block.vue'
 
 const mount = (el) => {
-  createApp(block, {
+  createApp(Block, {
     block: JSON.parse(el.dataset.block),
   }).mount(el)
 }
